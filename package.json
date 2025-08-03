@@ -1,0 +1,38 @@
+{
+  "name": "lg2-2-langgraph-with-chat-history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsx src/index.ts",
+    "test": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjsn10/LG2-2-LangGraph-with-Chat-History.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jjsn10/LG2-2-LangGraph-with-Chat-History/issues"
+  },
+  "homepage": "https://github.com/jjsn10/LG2-2-LangGraph-with-Chat-History#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/google-genai": "^0.2.16",
+    "@langchain/langgraph": "^0.4.2",
+    "@langchain/openai": "^0.6.3",
+    "cheerio": "^1.1.2",
+    "dotenv": "^16.6.1",
+    "langchain": "^0.3.30"
+  }
+}
